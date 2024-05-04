@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+	<link rel = "stylesheet" href="cmgrowbags.css"><!--external css file attachment-->
+	<title>Quick contact | CM Grow Bags</title>
+</head>
+<body>
+	<!--the bar icon for menu-->
+	<a href = "./cmgrowbagsabt.html"><img src = "bars.png" class = "bar"></a>
+	<!--logo-->
+	<a href = "./index.html"><img src = "cm.png" alt = "cmgrow" class="img"></a><br><br>
+	<!--background [white transparent box in the background]-->
+	<div class = "form">
+	<!--heading-->
+	<h1 id = "h1">Quick Inquiry Form</h1>
+		<!--the form-->
+		<div id = "formin">
+			<form action = "https://formsubmit.co/154c6dd3e7b33b363c00fe0931552900" method = "POST">
+				<!--honeypot-->
+				<input type="text" name="_honey" style="display: none;">
+				<!--disable captcha-->
+				<input type="hidden" name="_captcha" value="false">
+				<!--the form elements-->
+				<input type = "text" class = "txt" id = "txtname" name = "Full&nbsp;name" placeholder = "Your Full Name" required><br>
+				<input type = "text" class = "txt" id = "txtmail" name = "E-mail" placeholder = "Your Email" required><br>
+				<input type = "text" class = "txt" id = "txtpno" name = "Contact" placeholder = "Your Phone number" required>
+				<input type = "text" class = "txt" id = "txtsub" name = "Subject"  placeholder = "Subject"><br>
+				<input type = "textarea" class = "txtA" id = "txtmsg" name = "Message" placeholder = "Message">
+				<!--submit button-->
+				<button type="submit" id = "sub">Send</button>
+			</form>
+		</div>
+	</div>
+	<script src = "cmgrowbags.js" type = "text/javascript"></script><!--external Javascript file attachment-->
+</body>
+</html>
